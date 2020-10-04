@@ -1,3 +1,4 @@
+package de.uaworld.testlab.main;
 
 public class HelloWorld {
 
