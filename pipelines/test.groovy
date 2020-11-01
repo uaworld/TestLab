@@ -1,5 +1,6 @@
 node('remote') {
     // Note : this step is only needed if you're using direct Groovy scripting
+    stage 'Get Version'
     def appVersion = version()
     if (appVersion) {
         echo "Building version ${appVersion}"
